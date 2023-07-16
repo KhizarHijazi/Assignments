@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navbar{
+    background-color: rgba(23,26,59,255);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 15;
+}
+.logodiv {
+    display: flex;
+    flex-grow: 1.5;
+}
+.logodiv > img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.itemdiv {
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.itemdiv > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-right: 70px;
+}
+.itemdiv > ul > li a {
+   color: white;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    background-color: rgba(224,219,216,255);
+    background-image: url(https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062002.jpg?w=1380&t=st=1688674057~exp=1688674657~hmac=065b570ea338e095b18aad4b2613f0fcc69fc863db77d18444c96bbaa1caf33b);
+    background-size: cover;
+    opacity: 60%;
+    margin-top: 80px;
+}
+.inner {
+    display: flex;
+    color: black;
+}
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgba(23,26,59,255);
+    width: 100%;
+    height: 60px;
+}

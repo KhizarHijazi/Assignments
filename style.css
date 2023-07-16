@@ -1,0 +1,13 @@
+#a01{
+    text-align: center; 
+    font-size: 40px;
+}
+table{
+    text-align: center; margin-left: auto; margin-right: auto;
+}
+thead{
+    background-color: rgb(140, 141, 149);
+}
+#td01{
+    background-color:rgb(201, 196, 196) ;
+}
